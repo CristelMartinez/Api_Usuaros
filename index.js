@@ -13,7 +13,7 @@ app.use(express.json());
 connectDB();
 
 
-app.use("/Us",UsersRoutes);
+app.use("/",UsersRoutes);
 
 app.listen(PORT,()=>{
     console.log("Server running in http://localhost:"+PORT)
